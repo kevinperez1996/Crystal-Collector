@@ -1,0 +1,27 @@
+body{
+ font-family: 'Courier New', Courier, monospace;
+ background-image: url(../images/spacelive.gif);
+ color: yellow;
+ font: bold;
+}
+.col-sm-12{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.col-sm-6{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#title{
+    font-size: 50px;
+    font-style: italic;
+    font-style: underline;
+}
+#crystal1:hover{
+    opacity: 50%;
+}
+#instructions{
+    font-size: 18px;
+}
