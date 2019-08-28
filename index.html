@@ -14,6 +14,8 @@
 </head>
 
 <body>
+    <!-- JQUERY Link -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
@@ -22,60 +24,47 @@
         </div>
         <div class="row">
             <div class="col-sm-12">
-                <p>INSTRUCTIONS GO HERE BUT BEFORE WE TYPE THEM WE WILL USE THIS AS A PLACEHOLDER</p>
+                <p id="instructions">INSTRUCTIONS GO HERE BUT BEFORE WE TYPE THEM WE WILL USE THIS AS A PLACEHOLDER</p>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-6">
-                <h2>
-                    random ##
-                </h2>
+                <h2>Goal: <span id="goal"></span></h2>
             </div>
             <div class="col-sm-6">
-                <h2>
-                    Player Score: 
-                </h2>
+                <h2>Player Score: <span id="score"></span></h2>
             </div>
-            
+
         </div>
         <div class="row">
             <div class="col-sm-3">
-                CRYSTAL 
+                <img id="crystal1" src="assets/images/crystal1.jpg" width = 270px;>
             </div>
             <div class="col-sm-3">
-                CRYSTAL 
+                    <img id= "crystal2" src="assets/images/crystal2.jpg" width = 270px;>
             </div>
             <div class="col-sm-3">
-                CRYSTAL 
+                    <img id="crystal3" src="assets/images/crystal3.jpg" width = 270px;>
             </div>
             <div class="col-sm-3">
-                CRYSTAL 
+                    <img id="crystal4" src="assets/images/crystal4.jpg" width = 270px;>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-6">
-                <h2> Wins: </h2>
+                <h2> Wins: <span id="wins"></span> </h2>
             </div>
             <div class="col-sm-6">
-                <h2> losses: </h2>
+                <h2> losses: <span id="losses"></span></h2>
             </div>
         </div>
     </div>
 
 
-    
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+    <!-- My JS file link -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
 </body>
 
 </html>
