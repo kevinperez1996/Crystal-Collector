@@ -4,12 +4,12 @@ body{
  color: yellow;
  font: bold;
 }
-.col-sm-12{
+.col-md-12{
     text-align: center;
     margin-top: 20px;
 }
 
-.col-sm-6{
+.col-md-6{
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
