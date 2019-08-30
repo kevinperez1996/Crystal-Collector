@@ -1,6 +1,7 @@
 body{
  font-family: 'Courier New', Courier, monospace;
  background-image: url(../images/spacelive.gif);
+ background-size: 100%;
  color: yellow;
  font: bold;
 }
