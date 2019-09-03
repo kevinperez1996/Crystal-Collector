@@ -38,7 +38,7 @@ $(document).ready(function () {
 
         if (playerScore === randomNum) {
             gameStart();
-            wins++
+            wins++;
             $("#wins").text(wins);
             $("#counter").text("You Won!!!")
 
@@ -57,7 +57,7 @@ $(document).ready(function () {
 
         if (playerScore === randomNum) {
             gameStart();
-            wins++
+            wins++;
             $("#wins").text(wins);
             $("#counter").text("You Won!!!")
         }
@@ -75,13 +75,13 @@ $(document).ready(function () {
 
         if (playerScore === randomNum) {
             gameStart();
-            wins++
+            wins++;
             $("#wins").text(wins);
             $("#counter").text("You Won!!!")
         }
         else if (playerScore > randomNum) {
             gameStart();
-            losses++
+            losses++;
             $("#losses").text(losses);
             $("#counter").text("You Lost!!!")
         }
@@ -94,7 +94,7 @@ $(document).ready(function () {
         if (playerScore === randomNum) {
             wins++;
             gameStart();
-            wins++
+            wins++;
             $("#wins").text(wins);
             $("#counter").text("You Won!!!")
         }
