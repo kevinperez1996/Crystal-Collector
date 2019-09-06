@@ -17,6 +17,7 @@ $(document).ready(function () {
         crystalVal3 = Math.floor(Math.random() * 12) + 1;
         crystalVal4 = Math.floor(Math.random() * 12) + 1;
         playerScore = 0;
+        
         //Update the dom 
         $("#goal").text(randomNum);
         $("#score").text(playerScore);
