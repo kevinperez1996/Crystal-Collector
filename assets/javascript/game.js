@@ -9,18 +9,13 @@ $(document).ready(function () {
     var crystalVal2 = "";
     var crystalVal3 = "";
     var crystalVal4 = "";
-    
+
     function gameStart() {
         randomNum = Math.floor(Math.random() * 100) + 19;
         crystalVal1 = Math.floor(Math.random() * 12) + 1;
         crystalVal2 = Math.floor(Math.random() * 12) + 1;
         crystalVal3 = Math.floor(Math.random() * 12) + 1;
         crystalVal4 = Math.floor(Math.random() * 12) + 1;
-        console.log(crystalVal1);
-        console.log(crystalVal2);
-        console.log(crystalVal3);
-        console.log(crystalVal4);
-        console.log("---------------")
         playerScore = 0;
         //Update the dom 
         $("#goal").text(randomNum);
@@ -28,7 +23,6 @@ $(document).ready(function () {
         $("#wins").text(wins);
         $("#losses").text(losses);
         $("#counter").text("GoodLuck!")
-        
     }
     gameStart();
 
@@ -47,7 +41,8 @@ $(document).ready(function () {
             gameStart();
             losses++
             $("#losses").text(losses);
-            $("#counter").text("You Lost!!!")
+            $("#counter").text("You Lost!!!");
+            
         }
     });
 
