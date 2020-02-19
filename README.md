@@ -1,4 +1,5 @@
-# Unit-4-game
+# Crystal Collector
+
 In this Crystal Collector game we make the compuuter choose a random number from 19 to 120. Once the computer chooses a number, 
 we assign random values from 1-12 to each of the four crystals that are displayed on the page. Once the game begins, the player
 must choose a random crystal, whos value will be added to their score. The player must then remember the value of each crystal 
